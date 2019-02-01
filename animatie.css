@@ -10,35 +10,37 @@ body {
 #knop {
     grid-column: 2/3;
 }
-.vlakje{
+.vlak{
     grid-column: 3/4;
-    background-color: dodgerblue;
+    background-color: #01ff70;
     width: 5em;
     height: 5em;
     transition: transform .6s cubic-bezier(.17,.67,.71,1.29);
 }
-.vlakje--schuif-uit {
+.vlak--schuif-uit {
     transform: translateX(50vw);
+    background-color: #01ff70;
 }
 
-.vlakje{
+.vlak2{
     grid-column: 3/4;
-    background-color: dodgerblue;
+    background-color: #0A246A;
     width: 5em;
     height: 5em;
     transition: transform .6s cubic-bezier(.17,.67,.71,1.29);
 }
-.vlakje--schuif-uit {
+.vlak2--schuif-uit {
     transform: translateX(50vw);
+    background-color: #0A246A;
 }
-
-.vlakje{
+.vlak3{
     grid-column: 3/4;
-    background-color: dodgerblue;
+    background-color: #993300;
     width: 5em;
     height: 5em;
     transition: transform .6s cubic-bezier(.17,.67,.71,1.29);
 }
-.vlakje--schuif-uit {
+.vlak3--schuif-uit {
     transform: translateX(50vw);
+    background-color: #993300;
 }
