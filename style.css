@@ -1,0 +1,51 @@
+/* Vlak 1 */
+body {
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+#button {
+
+}
+
+.vlak {
+    background-color: salmon;
+    width: 10em;
+    height: 5em;
+    transition: background-color .6s cubic-bezier(.17,.67,.71,1.29), transform .65s cubic-bezier(.17,.67,.71,1.29);
+    transform: 0;
+    margin-left: -9.5%;
+}
+
+.vlak2 {
+    background-color: dodgerblue;
+    width: 10em;
+    height: 5em;
+    transition: background-color .7s cubic-bezier(.17,.67,.71,1.29), transform .625s cubic-bezier(.17,.67,.71,1.29);
+    transform: 0;
+    margin-left: -9.5%;
+}
+
+.vlak3 {
+    background-color: mediumpurple;
+    width: 10em;
+    height: 5em;
+    transition: background-color .8s cubic-bezier(.17,.67,.71,1.29), transform .6s cubic-bezier(.17,.67,.71,1.29);
+    transform: 0;
+    margin-left: -9.5%;
+}
+
+.vlak--schuif-uit {
+    transform: translateX(40vw);
+    background-color: dodgerblue;
+}
+
+.vlak2--schuif-uit {
+    transform: translateX(40vw);
+    background-color: mediumpurple;
+}
+
+.vlak3--schuif-uit {
+    transform: translateX(40vw);
+    background-color: salmon;
+}
